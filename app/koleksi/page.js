@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Koleksi from '@/components/Koleksi'
 import { PRODUK } from '@/lib/katalog'
 
-const SITE = 'https://crave-amber-mu.vercel.app'
+const SITE = 'https://crave-amber.pintuweb.id'
 
 export const metadata = {
   title: 'Koleksi menurut Tingkat — Positive Crave',

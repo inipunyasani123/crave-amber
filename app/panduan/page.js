@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Panduan Intensitas — Positive Crave',
   description:
     'Tidak tahu harus mulai dari mana? Tiga pertanyaan singkat memberi Anda satu tingkat dan satu titik mulai — termasuk saran jujur untuk belum membeli apa pun.',
-  alternates: { canonical: 'https://crave-amber-mu.vercel.app/panduan' },
+  alternates: { canonical: 'https://crave-amber.pintuweb.id/panduan' },
 }
 
 const ATURAN = [

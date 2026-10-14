@@ -6,10 +6,10 @@ import Footer from "@/components/Footer";
 const display = Manrope({ subsets: ["latin"], variable: "--font-display", weight: ["600","700","800"] });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-const __jsonld = {"@context":"https://schema.org","@type":"CreativeWork","name":"Positive Crave — Konsep Amber","description":"Landing page brand keintiman","url":"https://crave-amber-mu.vercel.app"};
+const __jsonld = {"@context":"https://schema.org","@type":"CreativeWork","name":"Positive Crave — Konsep Amber","description":"Landing page brand keintiman","url":"https://crave-amber.pintuweb.id"};
 
 export const metadata = {
-  metadataBase: new URL("https://crave-amber-mu.vercel.app"),
+  metadataBase: new URL("https://crave-amber.pintuweb.id"),
   title: "Positive Crave — Konsep Amber",
   description: "Landing page Positive Crave konsep \"Amber\": keintiman modern dengan kehangatan amber — passion meets precision.",
   applicationName: "Positive Crave",
@@ -17,11 +17,11 @@ export const metadata = {
   authors: [{ name: "Positive Crave" }],
   creator: "Positive Crave",
   publisher: "Positive Crave",
-  alternates: { canonical: "https://crave-amber-mu.vercel.app" },
+  alternates: { canonical: "https://crave-amber.pintuweb.id" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://crave-amber-mu.vercel.app",
+    url: "https://crave-amber.pintuweb.id",
     siteName: "Positive Crave",
     title: "Positive Crave — Konsep Amber",
     description: "Landing page Positive Crave konsep \"Amber\": keintiman modern dengan kehangatan amber — passion meets precision.",

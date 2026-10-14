@@ -4,7 +4,7 @@ import Nyala from '@/components/Nyala'
 import { CATATAN, catatanBySlug } from '@/lib/catatan'
 import { TINGKAT } from '@/lib/katalog'
 
-const SITE = 'https://crave-amber-mu.vercel.app'
+const SITE = 'https://crave-amber.pintuweb.id'
 
 export function generateStaticParams() {
   return CATATAN.map((c) => ({ slug: c.slug }))

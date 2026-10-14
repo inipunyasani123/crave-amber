@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Catatan Lilin — Positive Crave',
   description:
     'Tulisan pelan tentang keintiman: mulai dari tingkat paling lembut, menyiapkan ruangan, dan kapan sebaiknya naik — atau berhenti.',
-  alternates: { canonical: 'https://crave-amber-mu.vercel.app/jurnal' },
+  alternates: { canonical: 'https://crave-amber.pintuweb.id/jurnal' },
 }
 
 export default function CatatanPage() {

@@ -5,7 +5,7 @@ import Nyala from '@/components/Nyala'
 import ProductCard from '@/components/ProductCard'
 import { PRODUK, produkBySlug, rupiah, tingkatDari } from '@/lib/katalog'
 
-const SITE = 'https://crave-amber-mu.vercel.app'
+const SITE = 'https://crave-amber.pintuweb.id'
 // Urutan pita: dari intensitas terendah ke tertinggi.
 const PITA = [...PRODUK].sort((a, b) => a.intensitas - b.intensitas)
 

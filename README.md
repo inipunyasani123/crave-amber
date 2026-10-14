@@ -2,7 +2,7 @@
 
 Landing page Positive Crave konsep "Amber": keintiman modern dengan kehangatan amber — passion meets precision.
 
-**Demo live:** https://crave-amber-mu.vercel.app
+**Demo live:** https://crave-amber.pintuweb.id
 
 ![Tangkapan layar Positive Crave](public/og.jpg)
 
