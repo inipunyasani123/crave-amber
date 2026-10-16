@@ -10,11 +10,11 @@ import { PRODUK, TINGKAT } from '@/lib/katalog'
 
 export default function IntensityScale() {
   return (
-    <section id="panduan" className="relative overflow-hidden bg-night py-20 md:py-28">
+    <section id="panduan" className="relative overflow-hidden bg-night py-16 md:py-28">
       <div aria-hidden="true" className="candle absolute inset-x-0 top-0 h-[30rem]" />
 
       <div className="relative z-10 mx-auto max-w-6xl px-6">
-        <div className="mb-14 max-w-2xl">
+        <div className="mb-10 max-w-2xl md:mb-14">
           <p className="micro mb-5 text-amber">Panduan</p>
           <h2 className="text-[2rem] leading-[1.12] md:text-[2.7rem]">Tidak perlu langsung ke yang paling kuat</h2>
           <p className="mt-5 leading-relaxed text-smoke">
@@ -24,7 +24,7 @@ export default function IntensityScale() {
         </div>
 
         {/* Pita skala dengan titik produk */}
-        <div className="mb-12">
+        <div className="mb-10 md:mb-12">
           <div className="relative">
             <div aria-hidden="true" className="intensity-track h-2 w-full rounded-full" />
             <ul>
@@ -45,7 +45,7 @@ export default function IntensityScale() {
           </div>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-3 sm:gap-6 md:grid-cols-3">
           {TINGKAT.map((t) => {
             const isi = PRODUK.filter((p) => p.intensitas >= t.rentang[0] && p.intensitas <= t.rentang[1])
             return (

@@ -2,13 +2,14 @@ import Link from 'next/link'
 import KuisTingkat from '@/components/KuisTingkat'
 import Nyala from '@/components/Nyala'
 import { PRODUK, TINGKAT } from '@/lib/katalog'
+import { meta } from '@/lib/seo'
 
-export const metadata = {
-  title: 'Panduan Intensitas — Positive Crave',
+export const metadata = meta({
+  title: 'Panduan Intensitas',
   description:
-    'Tidak tahu harus mulai dari mana? Tiga pertanyaan singkat memberi Anda satu tingkat dan satu titik mulai — termasuk saran jujur untuk belum membeli apa pun.',
-  alternates: { canonical: 'https://crave-amber.pintuweb.id/panduan' },
-}
+    'Tidak tahu harus mulai dari mana? Tiga pertanyaan singkat memberi satu tingkat dan satu titik mulai — termasuk saran jujur untuk belum membeli.',
+  path: '/panduan',
+})
 
 const ATURAN = [
   ['Naik satu tingkat, bukan dua', 'Dari tingkat I, coba barang di batas bawah tingkat II dulu. Perbedaannya terasa jelas tanpa mengagetkan.'],

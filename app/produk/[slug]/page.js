@@ -4,8 +4,8 @@ import { notFound } from 'next/navigation'
 import Nyala from '@/components/Nyala'
 import ProductCard from '@/components/ProductCard'
 import { PRODUK, produkBySlug, rupiah, tingkatDari } from '@/lib/katalog'
+import { meta, SITE } from '@/lib/seo'
 
-const SITE = 'https://crave-amber.pintuweb.id'
 // Urutan pita: dari intensitas terendah ke tertinggi.
 const PITA = [...PRODUK].sort((a, b) => a.intensitas - b.intensitas)
 
@@ -18,12 +18,11 @@ export async function generateMetadata({ params }) {
   const p = produkBySlug(slug)
   if (!p) return {}
   const t = tingkatDari(p.intensitas)
-  return {
-    title: `${p.nama} · Tingkat ${t.romawi} — Positive Crave`,
+  return meta({
+    title: `${p.nama} · Tingkat ${t.romawi}`,
     description: `${p.ringkas} Intensitas ${p.intensitas} dari 10, tingkat ${t.nama.toLowerCase()}.`,
-    alternates: { canonical: `${SITE}/produk/${p.slug}` },
-    openGraph: { images: [{ url: p.image }] },
-  }
+    path: `/produk/${p.slug}`,
+  })
 }
 
 export default async function ProdukPage({ params }) {

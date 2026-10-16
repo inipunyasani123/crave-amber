@@ -1,11 +1,13 @@
 import AkunForm from '@/components/AkunForm'
+import { meta } from '@/lib/seo'
 
-export const metadata = {
-  title: 'Masuk — Positive Crave',
-  description: 'Masuk ke akun Positive Crave untuk melihat pesanan dan saran tingkat berikutnya.',
-  alternates: { canonical: 'https://crave-amber.pintuweb.id/masuk' },
-  robots: { index: false, follow: true },
-}
+export const metadata = meta({
+  title: 'Masuk',
+  description:
+    'Masuk ke akun Positive Crave untuk melihat pesanan dan saran tingkat berikutnya.',
+  path: '/masuk',
+  index: false,
+})
 
 export default function Page() {
   return <AkunForm mode="masuk" />

@@ -3,8 +3,7 @@ import { notFound } from 'next/navigation'
 import Nyala from '@/components/Nyala'
 import { CATATAN, catatanBySlug } from '@/lib/catatan'
 import { TINGKAT } from '@/lib/katalog'
-
-const SITE = 'https://crave-amber.pintuweb.id'
+import { meta, SITE } from '@/lib/seo'
 
 export function generateStaticParams() {
   return CATATAN.map((c) => ({ slug: c.slug }))
@@ -14,12 +13,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params
   const c = catatanBySlug(slug)
   if (!c) return {}
-  return {
-    title: `${c.judul} — Catatan Lilin`,
-    description: c.ringkas,
-    alternates: { canonical: `${SITE}/jurnal/${c.slug}` },
-    openGraph: { type: 'article' },
-  }
+  return meta({ title: c.judul, description: c.ringkas, path: `/jurnal/${c.slug}`, type: 'article' })
 }
 
 function Blok({ b, pertama }) {

@@ -6,12 +6,12 @@ import Footer from "@/components/Footer";
 const display = Manrope({ subsets: ["latin"], variable: "--font-display", weight: ["600","700","800"] });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-const __jsonld = {"@context":"https://schema.org","@type":"CreativeWork","name":"Positive Crave — Konsep Amber","description":"Landing page brand keintiman","url":"https://crave-amber.pintuweb.id"};
+const __jsonld = {"@context":"https://schema.org","@type":"CreativeWork","name":"Positive Crave — Konsep Amber","description":"Konsep desain toko brand keintiman pasangan bernuansa cahaya lilin, dibuat untuk kontes brief Positive Crave","url":"https://crave-amber.pintuweb.id"};
 
 export const metadata = {
   metadataBase: new URL("https://crave-amber.pintuweb.id"),
   title: "Positive Crave — Konsep Amber",
-  description: "Landing page Positive Crave konsep \"Amber\": keintiman modern dengan kehangatan amber — passion meets precision.",
+  description: "Konsep toko Positive Crave bernuansa cahaya lilin: tiap barang punya tingkat nyala 1–10, kuis panduan yang jujur, dan pengiriman dalam kotak polos.",
   applicationName: "Positive Crave",
   keywords: ["intimacy brand", "wellness pasangan", "landing page", "desain web"],
   authors: [{ name: "Positive Crave" }],
@@ -22,15 +22,15 @@ export const metadata = {
     type: "website",
     locale: "id_ID",
     url: "https://crave-amber.pintuweb.id",
-    siteName: "Positive Crave",
+    siteName: "Positive Crave — Konsep Amber",
     title: "Positive Crave — Konsep Amber",
-    description: "Landing page Positive Crave konsep \"Amber\": keintiman modern dengan kehangatan amber — passion meets precision.",
+    description: "Konsep toko Positive Crave bernuansa cahaya lilin: tiap barang punya tingkat nyala 1–10, kuis panduan yang jujur, dan pengiriman dalam kotak polos.",
     images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Positive Crave — Konsep Amber" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Positive Crave — Konsep Amber",
-    description: "Landing page Positive Crave konsep \"Amber\": keintiman modern dengan kehangatan amber — passion meets precision.",
+    description: "Konsep toko Positive Crave bernuansa cahaya lilin: tiap barang punya tingkat nyala 1–10, kuis panduan yang jujur, dan pengiriman dalam kotak polos.",
     images: ["/og.jpg"],
   },
   robots: {

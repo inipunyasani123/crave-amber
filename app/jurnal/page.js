@@ -2,13 +2,14 @@ import Link from 'next/link'
 import Nyala from '@/components/Nyala'
 import { CATATAN } from '@/lib/catatan'
 import { TINGKAT } from '@/lib/katalog'
+import { meta } from '@/lib/seo'
 
-export const metadata = {
-  title: 'Catatan Lilin — Positive Crave',
+export const metadata = meta({
+  title: 'Catatan Lilin',
   description:
     'Tulisan pelan tentang keintiman: mulai dari tingkat paling lembut, menyiapkan ruangan, dan kapan sebaiknya naik — atau berhenti.',
-  alternates: { canonical: 'https://crave-amber.pintuweb.id/jurnal' },
-}
+  path: '/jurnal',
+})
 
 export default function CatatanPage() {
   return (
