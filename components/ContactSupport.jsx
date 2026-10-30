@@ -47,7 +47,7 @@ export default function ContactSupport() {
                   <Link href="/panduan" className="micro rounded-full bg-amber px-6 py-3 text-night transition-colors hover:bg-cream">
                     Buka kuis panduan
                   </Link>
-                  <button type="button" onClick={() => setTerkirim(false)} className="micro border-b border-cream/30 pb-1 text-cream hover:border-cream">
+                  <button type="button" onClick={() => setTerkirim(false)} className="micro border-b border-cream/30 pb-1 text-cream hover:border-cream sentuh-x">
                     Tulis lagi
                   </button>
                 </div>

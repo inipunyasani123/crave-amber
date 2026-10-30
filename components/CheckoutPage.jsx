@@ -47,7 +47,7 @@ export default function CheckoutPage() {
                 Ini purwarupa desain untuk kontes — tidak ada pesanan atau pembayaran yang diproses. Di toko
                 sungguhan, {p.nama} dikirim dalam kotak polos{kartu ? ' bersama kartu panduan tingkat ' + t.romawi : ''}.
               </p>
-              <button onClick={() => setSelesai(false)} className="micro mt-8 text-amber hover:text-cream">Kembali ke formulir</button>
+              <button onClick={() => setSelesai(false)} className="micro mt-8 text-amber hover:text-cream sentuh">Kembali ke formulir</button>
             </div>
           ) : (
             <form onSubmit={kirim} className="warm-edge space-y-5 rounded-[var(--radius-soft)] bg-night-2 p-6 sm:p-9">

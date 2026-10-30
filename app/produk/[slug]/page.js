@@ -50,9 +50,9 @@ export default async function ProdukPage({ params }) {
         <div aria-hidden="true" className="candle absolute inset-x-0 top-0 h-[30rem]" />
         <div className="relative z-10 mx-auto max-w-6xl px-6">
           <nav aria-label="Remah roti" className="micro mb-10 flex flex-wrap items-center gap-2 text-smoke">
-            <Link href="/" className="hover:text-amber">Beranda</Link>
+            <Link href="/" className="hover:text-amber sentuh">Beranda</Link>
             <span aria-hidden="true">/</span>
-            <Link href={`/koleksi#tingkat-${t.id}`} className="hover:text-amber">Tingkat {t.romawi}</Link>
+            <Link href={`/koleksi#tingkat-${t.id}`} className="hover:text-amber sentuh">Tingkat {t.romawi}</Link>
             <span aria-hidden="true">/</span>
             <span className="text-cream" aria-current="page">{p.nama}</span>
           </nav>

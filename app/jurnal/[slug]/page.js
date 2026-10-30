@@ -80,7 +80,7 @@ export default async function CatatanArtikel({ params }) {
       <div aria-hidden="true" className="candle absolute inset-x-0 top-0 h-[34rem]" />
       <div className="relative z-10 mx-auto max-w-2xl px-6">
         <header className="text-center">
-          <Link href="/jurnal" className="micro text-amber hover:text-cream">Catatan Lilin</Link>
+          <Link href="/jurnal" className="micro text-amber hover:text-cream sentuh">Catatan Lilin</Link>
           <h1 className="mt-6 text-[2.2rem] leading-[1.08] md:text-[3rem]">{c.judul}</h1>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-cream/85">{c.ringkas}</p>
           <p className="micro mt-8 flex items-center justify-center gap-3 text-smoke">

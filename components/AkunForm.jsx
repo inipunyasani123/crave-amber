@@ -98,9 +98,9 @@ export default function AkunForm({ mode }) {
           )}
 
           <div className="mt-7 flex flex-wrap gap-x-6 gap-y-2 border-t border-cream/12 pt-6">
-            {mode !== 'masuk' && <Link href="/masuk" className="micro text-amber hover:text-cream">Sudah punya akun — masuk</Link>}
-            {mode !== 'daftar' && <Link href="/register" className="micro text-amber hover:text-cream">Buat akun</Link>}
-            {mode === 'masuk' && <Link href="/forgot" className="micro text-smoke hover:text-cream">Lupa kata sandi</Link>}
+            {mode !== 'masuk' && <Link href="/masuk" className="micro text-amber hover:text-cream sentuh">Sudah punya akun — masuk</Link>}
+            {mode !== 'daftar' && <Link href="/register" className="micro text-amber hover:text-cream sentuh">Buat akun</Link>}
+            {mode === 'masuk' && <Link href="/forgot" className="micro text-smoke hover:text-cream sentuh">Lupa kata sandi</Link>}
           </div>
           <p className="micro mt-6 leading-[1.7] text-smoke">Purwarupa desain — tidak ada autentikasi sungguhan.</p>
         </div>
