@@ -80,7 +80,7 @@ export default function PanduanPage() {
             <p className="mt-5 leading-relaxed text-smoke">
               Tidak ada yang wajib sampai ke ujung. Tiga aturan yang kami pegang saat memberi saran:
             </p>
-            <Link href="/jurnal/kapan-naik-kapan-cukup" className="micro mt-6 inline-block text-amber hover:text-cream">
+            <Link href="/jurnal/kapan-naik-kapan-cukup" className="micro mt-6 inline-block text-amber hover:text-cream sentuh">
               Baca selengkapnya di Catatan Lilin →
             </Link>
           </div>
